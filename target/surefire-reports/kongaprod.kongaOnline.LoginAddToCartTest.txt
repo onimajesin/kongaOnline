@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: kongaprod.kongaOnline.LoginAddToCartTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 64.497 s <<< FAILURE! - in kongaprod.kongaOnline.LoginAddToCartTest
+login(kongaprod.kongaOnline.LoginAddToCartTest)  Time elapsed: 20.418 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".\_12da4_1baq-"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'TECH-007', ip: '172.28.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [783ef5beea39e1c6478a9e639b082997, findElement {using=css selector, value=.\_12da4_1baq-}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\SULAIM~1.BUH\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60923/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 783ef5beea39e1c6478a9e639b082997
+	at kongaprod.kongaOnline.LoginAddToCartTest.login(LoginAddToCartTest.java:204)
+
